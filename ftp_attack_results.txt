@@ -1,5 +1,0 @@
-# Medusa v.2.2 (2026-02-23 02:43:39)
-# medusa -h 127.0.0.1 -U users.txt -P passwords.txt -M ftp -O ftp_attack_log.txt 
-ACCOUNT FOUND: [ftp] Host: 127.0.0.1 User: testuser Password: password123 [SUCCESS]
-ACCOUNT FOUND: [ftp] Host: 127.0.0.1 User: user Password: password123 [SUCCESS]
-# Medusa has finished (2026-02-23 02:43:48).
