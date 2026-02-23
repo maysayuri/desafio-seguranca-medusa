@@ -1,0 +1,2 @@
+[SUCCESS] User: admin, Password: password
+[*] Web form attack completed. Results saved to web_attack_results.txt
