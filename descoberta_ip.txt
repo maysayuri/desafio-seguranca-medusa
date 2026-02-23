@@ -1,0 +1,7 @@
+[*] Iniciando descoberta de dispositivos na rede...
+[+] Interface: eth0
+[+] Endereço IP da máquina atacante (Kali): 192.168.1.15
+[+] Varredura de rede (netdiscover):
+    IP: 192.168.1.1  - MAC: 00:50:56:C0:00:08 (Gateway)
+    IP: 192.168.1.20 - MAC: 08:00:27:61:A4:D1 (Alvo: Metasploitable 2)
+[*] Alvo identificado: 192.168.1.20

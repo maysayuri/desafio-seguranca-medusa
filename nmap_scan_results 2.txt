@@ -1,0 +1,51 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-02-23 05:29 EST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000039s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 3.0.5
+22/tcp   open  ssh         OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http        Apache httpd 2.4.52 ((Ubuntu))
+139/tcp  open  netbios-ssn Samba smbd 4.6.2
+445/tcp  open  netbios-ssn Samba smbd 4.6.2
+3306/tcp open  nagios-nsca Nagios NSCA
+5900/tcp open  vnc         VNC (protocol 3.8)
+5901/tcp open  http        Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+8333/tcp open  bitcoin?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8333-TCP:V=7.80%I=7%D=2/23%Time=699C2BED%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,2B9,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\
+SF:x20bytes\r\nContent-Length:\x20498\r\nContent-Type:\x20text/html;\x20ch
+SF:arset=utf-8\r\nLast-Modified:\x20Fri,\x2009\x20Jan\x202026\x2004:46:49\
+SF:x20GMT\r\nVary:\x20Origin\r\nDate:\x20Mon,\x2023\x20Feb\x202026\x2010:2
+SF:9:01\x20GMT\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><meta\x
+SF:20charset=\"utf-8\"><meta\x20http-equiv=\"X-UA-Compatible\"\x20content=
+SF:\"IE=edge\"><meta\x20name=\"viewport\"\x20content=\"width=device-width,
+SF:initial-scale=1\"><link\x20rel=\"icon\"\x20href=\"/favicon\.ico\"><titl
+SF:e>Viewer</title><script\x20defer=\"defer\"\x20src=\"https://files\.manu
+SF:scdn\.com/neko-client/static/js/chunk-vendors\.25da2e10\.js\"></script>
+SF:<script\x20defer=\"defer\"\x20src=\"https://files\.manuscdn\.com/neko-c
+SF:lient/static/js/app\.f5410b2c\.js\"></script></head><body><div\x20id=\"
+SF:app\"></div></body></html>")%r(HTTPOptions,69,"HTTP/1\.0\x20405\x20Meth
+SF:od\x20Not\x20Allowed\r\nVary:\x20Origin\r\nDate:\x20Mon,\x2023\x20Feb\x
+SF:202026\x2010:29:01\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(RTSPReque
+SF:st,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plai
+SF:n;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Reques
+SF:t")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nC
+SF:ontent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\
+SF:n\r\n400\x20Bad\x20Request")%r(TerminalServerCookie,67,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\
+SF:nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(TLSSessionReq,67
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x2
+SF:0charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r
+SF:(Kerberos,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20te
+SF:xt/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x2
+SF:0Request");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 87.41 seconds
